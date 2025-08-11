@@ -28,5 +28,3 @@ class GuideField:
                     count += 1        
 
         return count 
-
-# Test 
