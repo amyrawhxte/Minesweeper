@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minesweeper</title>
+        <link rel="stylesheet" href="minesweeper.css">
+    </head>
+    <body>
+        <h1>Minesweeper</h1>
+        <div id="controls">
+            <label>
+                Rows: <span id="numRows">8</span>
+                <input id="rows" type="range" min="5" max="25" value="8">
+            </label>
+            <label>
+                cols: <span id="numCols">8</span>
+                <input id="cols" type="range" min="5" max="25" value="8">
+            </label>
+            <label>
+                Mines: <span id="numMines">10</span>
+                <input id="mines" type="range" min="1" max="80" value="10">
+            </label>
+            <button id="startBtn">Start Game</button>
+        </div>
+        <div id="status"></div>
+        <div class="board" id="gameBoard"></div>
+        
+        <script src="minesweeper.js"></script>
+    </body>
+</html>
